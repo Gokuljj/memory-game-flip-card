@@ -38,10 +38,19 @@ body {
     margin: 0 auto;
 }
 
-/* Top hero section -- title timer reset */
+/* Top hero section -- logo title timer reset */
+
+.logo-container {
+   margin-top: 30px;
+   text-align: center;
+}
+
+.logo-png {
+   height: 100px;
+}
 
 h1 {
-    margin: 75px 0 20px;
+    margin: 20px 0 20px;
     text-align: center;
     letter-spacing: 0.1px;
     color: var(--s-color);
