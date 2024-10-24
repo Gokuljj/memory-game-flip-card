@@ -526,4 +526,9 @@ h2 {
     #memory-game-board i {
        font-size: 1.4rem;
     }
+
+    .footer-container .footer-text {
+      font-size: 1rem;
+
+    }
  }
