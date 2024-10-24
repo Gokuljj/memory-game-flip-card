@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Memory Game flip card | HTML CSS & JavaScript</title>
+</head>
+<body>
+
+    <!-- popup Screen -->
+    <div id="modal-wrapper">
+        <div class="modal-container">
+           <i id="close" class="star-3 fas fa-times"></i>
+           <div class="text-container">
+              <h1 class="modal-title">Well done</h1>
+              <p>Congratulations you completed the game</p>
+              <p id="moves"></p>
+              <p id="time"></p>
+              <p id="score"></p>
+              <button id="btn">Play again</button>
+           </div>
+        </div>
+     </div>
+
+
+    <!-- Main Layout And Board Game Setup -->
+     <div id="body-wrapper">
+        <!-- Title / Heading -->
+         <h1>Me<span class="letter-flip">m</span>ory Ga<span class="letter-flip">m</span>e</h1>
+         <h2>Flip <span class="letter-flip"> ~ </span> Card</h2>
+
+         <div class="icon-container">
+            <ul>
+                <!-- stars & moves counter -->
+                 <li>
+                    <div id="stars-container"></div>
+                    <p id="movesCounter"></p>
+                 </li>
+
+                 <!-- Timer -->
+                  <li class="stopwatch-container">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <p id="timer"></p>
+                  </li>
+
+                  <!-- Reset Button -->
+                   <li>
+                    <i id="reset" class="fa-solid fa-arrows-rotate fa-spin"></i>
+                    <p>Reset</p>
+                   </li>
+            </ul>
+         </div>
+     </div>
+
+     <!-- Game Board and Cards - js -->
+      <div id="memory-game-board">
+
+      </div>
+
+      <hr />
+      <footer class="footer-container">
+        <p class="footer-text">&copy; 2024 Memory Game Flip Card | Developed by [ Gokul Prasath J ]</p>
+    </footer>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
