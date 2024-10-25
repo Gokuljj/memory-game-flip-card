@@ -1,5 +1,8 @@
 # Memory Game Flip Card
 
+# Game's Deployed Link
+[ https://mgflipcardgame.netlify.app/ ]
+
 A simple and fun Memory Game developed using **HTML**, **CSS**, and **JavaScript**. The goal of the game is to match pairs of cards by flipping them. Once all pairs are matched, the game is complete.
 
 ## Features
